@@ -42,7 +42,7 @@ payza.getTransactionInfo(opts, function(err, data) {
 
 ```js
 var opts = {
-  'startDate': '2011/04/11', //format YYY/MM/DD
+  'startDate': '2011/04/11', //format YYYY/MM/DD
   'endDate': '2011/04/22',
   'email': 'example@gmail.com', //The email contained in the transaction
   'transactionNumber': 'BD998-85C6D-6947E',
@@ -116,7 +116,7 @@ var opts = {
   'testMode': 0
 };
 
-payza.calcelSubscription(opts, function(err, data) {
+payza.cancelSubscription(opts, function(err, data) {
   console.log(err || data);
 });
 ```
