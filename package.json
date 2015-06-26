@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:abelino/payza.git"
+    "url": "https://gitlab.com/abelino/payza"
   },
   "keywords": [
     "payza",
